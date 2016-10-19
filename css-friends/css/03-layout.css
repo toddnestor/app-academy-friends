@@ -4,6 +4,9 @@
   width: 900px;
   margin: 0 auto;
   position: relative;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  /*box-sizing: border-box;*/
 }
 
 .content:before {
@@ -11,25 +14,24 @@
   display: block;
   position: absolute;
   width: 1px;
-  left: 25%;
+  left: 240px;
   top: 0;
   bottom: 0;
-  background-color: #eee;
+  background-color: #ccc;
 }
 
 .content-sidebar, .content-main {
   float: left;
   min-height: 200px;
   padding: 20px;
-  box-sizing: border-box;
+  /*box-sizing: border-box;*/
+  background-color: #fff;
 }
 
 .content-sidebar{
-  width: 25%;
-  background-color: teal;
+  width: 200px;
 }
 
 .content-main {
-  width: 75%;
-  background-color: orange;
+  width: 620px;
 }
